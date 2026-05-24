@@ -189,9 +189,6 @@ export default {
       whatsappMessage: import.meta.env.VITE_WHATSAPP_MESSAGE 
     };
   },
-  mounted() {
-    console.log('Gmail Subject:', this.gmailSubject);
-  },
   computed: {
     gmailEmbeddedMessage() {
       return `mailto:aryantnigam@gmail.com?subject=${this.gmailSubject}&body=${this.gmailMessage}`;

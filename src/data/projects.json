@@ -1,0 +1,66 @@
+[
+  {
+    "title": "AI Customer Feedback Analyzer",
+    "description": "Built an AI-powered workflow using LangChain and OpenAI GPT-4o to analyze customer feedback. The system detects sentiment, generates concise summaries, crafts tailored responses automatically, uses structured outputs with Pydantic, and implements conditional branching within the AI pipeline for reliable LLM workflows.",
+    "stack": "Python, LangChain, OpenAI GPT-4o, Pydantic",
+    "tags": ["AI", "LLM", "LangChain", "Automation"],
+    "previewLink": "https://www.linkedin.com/posts/aryant-nigam_ai-llm-langchain-activity-7433446648745426944-j3Dh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": ""
+  },
+  {
+    "title": "Builders On Board",
+    "description": "A service marketplace platform for daily repair and furnishing needs. Implemented secure JWT authentication and deployed full-stack services.",
+    "stack": "Next.js, Flask, JWT, Postgres, Redux",
+    "tags": ["Marketplace", "Fullstack", "Web"],
+    "previewLink": "https://www.linkedin.com/posts/aryant-nigam_fullstackdeveloper-flask-nextjs-activity-7210336817957466113-uIZq?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": "https://github.com/aryant-nigam/builders-on-board"   
+  },
+  {
+    "title": "The Quill",
+    "description": "Built a React-based platform for poets to publish poems, explore contemporary writing, and engage with the community through reactions and interactions. Inspired by the stage aesthetics of a Nayab Midha poetry show, the platform integrates Firebase Realtime Database, authentication, and web hosting for a seamless social experience.",
+    "stack": "React, Firebase Realtime Database, Firebase Auth",
+    "tags": ["Web", "Community", "Creative", "Firebase"],
+    "previewLink": "https://www.linkedin.com/posts/aryant-nigam_webdevelopment-react-firebase-activity-7207037136972177408-kcx1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": "https://github.com/aryant-nigam/the-quill"
+  },
+  {
+    "title": "React Mealz",
+    "description": "A food ordering web application built while transitioning from Android and iOS development to web development. The project explores core React concepts including Context API, custom hooks, reusable component architecture, and animated UI interactions using CSS keyframes.",
+    "stack": "React, Context API, CSS Animations",
+    "tags": ["React", "Redux", "Frontend", "Food Ordering"],
+    "previewLink":"https://www.linkedin.com/posts/aryant-nigam_revamping-newbeginnings-react-activity-7202626045613649921-k4Z_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": "https://github.com/aryant-nigam/react-meals"
+  },    
+  {
+    "title": "Pocketify",
+    "description": "A budget management app to track income and expenses with rich visualizations. Designed intuitive UI using Flutter Material components and integrated Firebase backend.",
+    "stack": "Flutter, Firebase, Dart",
+    "tags": ["Mobile", "Fintech", "Firebase"],
+    "previewLink": "https://www.linkedin.com/posts/aryant-nigam_flutter-flutter-android-activity-6907212206363312128-wWat?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": "https://github.com/aryant-nigam/Pocketify"
+  },
+  {
+    "title": "Discuter",
+    "description": "An open global chat platform where users can communicate individually or in groups with modern social-media-inspired interaction features.",
+    "stack": "Java, XML, Firebase, Android",
+    "tags": ["Chat", "Social", "Mobile"],
+    "previewLink": "https://www.linkedin.com/posts/aryant-nigam_activity-6857528749332709376-_PWf?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": "https://github.com/aryant-nigam/DISCUTER"
+  },
+  {
+    "title": "Eduplex",
+    "description": "A communication platform built during the pandemic to streamline interaction between students and school management systems.",
+    "stack": "Java, XML, Firebase, Android",
+    "tags": ["Education", "Android", "Communication"],
+    "previewLink": "https://www.linkedin.com/posts/aryant-nigam_based-on-responses-of-least-appealing-menu-activity-6825144336913629184-n_lo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACzU6u8BD1MGmR23vl7QH6BS_keIafElKjk",
+    "sourceLink": "https://github.com/aryant-nigam/Eduplex"
+  },
+  {
+    "title": "Arrays.h",
+    "description": "A C++ header library designed to provide dynamically size-shifting arrays and adapters with 50+ functionalities for advanced data structure manipulation.",
+    "stack": "C++, STL",
+    "tags": ["Systems", "C++", "Library"],
+    "previewLink": "",
+    "sourceLink": "https://github.com/aryant-nigam/Array.h"
+  }
+]

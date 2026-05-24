@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Vue.js",
+    "icon": "Vue",
+    "color": "#42b883",
+    "desc": "Reactive SPAs & Systems",
+    "usedIn": [
+      "Worked on scalable frontend systems using Vue.js, reusable UI components, REST API integrations, Vite SSR optimizations, and responsive interfaces across production-grade applications and workflow automation systems."
+    ]
+  },
+  {
+    "name": "React.js",
+    "icon": "React",
+    "color": "#61dafb",
+    "desc": "Modern UIs & App Router",
+    "usedIn": [
+      "Built modern React applications with reusable component architectures, responsive layouts, routing systems, and backend integrations focused on scalable and maintainable user experiences."
+    ]
+  },
+   {
+    "name": "Flask & Microservices",
+    "icon": "Flask",
+    "color": "#ffffff",
+    "desc": "Lightweight Python Framework",
+    "usedIn": [
+      "Built lightweight backend services, REST APIs, authentication systems, third-party integrations, and scalable microservice workflows supporting frontend applications and automation systems."
+    ]
+  },
+  {
+    "name": "FastAPI Backend",
+    "icon": "FastApi",
+    "color": "#009688",
+    "desc": "High-performance Python",
+    "usedIn": [
+      "Developed scalable backend APIs, authentication systems, automation workflows, and service-oriented architectures supporting frontend applications."
+    ]
+  },
+  {
+    "name": "Bootstrap 5",
+    "icon": "Bootstrap",
+    "color": "#7952b3",
+    "desc": "Responsive Design",
+    "usedIn": [
+      "Built responsive dashboards, reusable UI systems, operational interfaces, and mobile-friendly frontend layouts using Bootstrap 5 across multiple production applications."
+    ]
+  },
+  {
+    "name": "Python",
+    "icon": "Python",
+    "color": "#3776ab",
+    "desc": "Automation & Data",
+    "usedIn": [
+      "Built automation tools, backend services, reusable internal packages, API wrappers, and operational workflows using Python across multiple engineering systems."
+    ]
+  },
+  {
+    "name": "Javascript",
+    "icon": "Javascript",
+    "color": "#f7df1e",
+    "desc": "Web Interactivity",
+    "usedIn": [
+      "Developed dynamic frontend interfaces, reusable application logic, API-driven systems, and scalable user experiences using modern JavaScript ecosystems."
+    ]
+  },
+  {
+    "name": "Shopify Dev",
+    "icon": "Shopify",
+    "color": "#95bf47",
+    "desc": "Custom E-commerce",
+    "usedIn": [
+      "Integrated Shopify GraphQL APIs with internal systems for workflow automation, storefront customization, operational synchronization, and scalable e-commerce experiences."
+    ]
+  },
+  {
+    "name": "Vite Tooling",
+    "icon": "Vite",
+    "color": "#646cff",
+    "desc": "Frontend Performance",
+    "usedIn": [
+      "Implemented Vite-based SSR architectures, optimized frontend build systems, reduced bundle sizes, and improved application performance and SEO."
+    ]
+  },
+  {
+    "name": "Cloud & AWS",
+    "icon": "AWS",
+    "color": "#ff9900",
+    "desc": "Infrastructure & Scale",
+    "usedIn": [
+      "Worked with AWS Lambda, CloudWatch, and event-driven workflows to automate backend systems, monitoring pipelines, and scheduled Slack-based logging notifications."
+    ]
+  },
+  {
+    "name": "Zoho automation",
+    "icon": "BoxIcon",
+    "color": "#e42527",
+    "desc": "Business Workflows",
+    "usedIn": [
+      "Integrated Zoho CRM, Zoho Inventory, and communication platforms into backend workflows for operational automation, lead synchronization, and customer engagement pipelines."
+    ]
+  },
+  {
+    "name": "DevOps & Git",
+    "icon": "Git",
+    "color": "#f1502f",
+    "desc": "CI/CD & Versioning",
+    "usedIn": [
+      "Worked with Git-based collaboration workflows, deployment pipelines, debugging systems, and coordinated feature delivery across frontend and backend teams."
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "icon": "MongoDB",
+    "color": "#47a248",
+    "desc": "NoSQL Document Store",
+    "usedIn": [
+      "Worked with MongoDB for scalable data handling, operational workflows, backend services, and API-connected automation systems."
+    ]
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "Postgres",
+    "color": "#336791",
+    "desc": "Relational Modeling",
+    "usedIn": [
+      "Used PostgreSQL for structured relational data management, backend workflows, operational systems, and database-driven applications."
+    ]
+  },
+  {
+    "name": "AI & LLM",
+    "icon": "OpenAi",
+    "color": "#ffffff",
+    "desc": "Intelligent Systems",
+    "usedIn": [
+      "Explored AI-assisted workflows, intelligent automation systems, and LLM-based integrations focused on productivity enhancement and modern engineering solutions."
+    ]
+  }
+]
+

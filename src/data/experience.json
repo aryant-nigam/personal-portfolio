@@ -1,0 +1,92 @@
+
+[
+  {
+    "company": "Infineon Technologies",
+    "role": "Software Development Intern",
+    "period": "Jul 2022 — May 2023",
+    "bullets": [
+      "• Developed in-house automation tools and desktop utilities using Python for testing and workflow optimization.",
+      "• Reduced manual testing effort through automation scripting and process improvements.",
+      "• Analyzed and benchmarked performance of automotive driver APIs for embedded systems.",
+      "• Replaced dependency on Rapita tools through internal tooling solutions, reducing licensing costs significantly."
+    ],
+    "skills": [
+      "Python",
+      "Automation",
+      "API Analysis",
+      "Desktop Applications",
+      "Testing"
+    ]
+  },
+  {
+    "company": "Formulo",
+    "role": "Full Stack Web Developer Intern",
+    "period": "Jul 2023 — Jan 2024",
+    "bullets": [
+      "• Built and maintained internal tools and client-facing features across frontend and backend systems.",
+      "• Developed REST APIs and backend services for scalable internal workflows and automation systems.",
+      "• Assisted in debugging, deployment workflows, API integrations, and feature architecture.",
+      "• Worked with external platforms including Zoho CRM, Interakt, and Gupshup for operational automation."
+    ],
+    "skills": [
+      "Vue.js",
+      "Flask",
+      "REST APIs",
+      "Zoho CRM",
+      "Interakt",
+      "Gupshup"
+    ]
+  },
+  {
+    "company": "Formulo",
+    "role": "Junior Full-stack Web Developer",
+    "period": "Jan 2024 — Jan 2026",
+    "bullets": [
+      "• Designed scalable backend APIs and integrated third-party services for business workflows.",
+      "• Enabled Vite-based SSR in Vue.js, improving SEO and reducing FCP by 40%.",
+      "• Optimized application performance through bundle reduction, lazy loading, and backend response improvements.",
+      "• Integrated Zoho CRM, Zoho Inventory, Shopify, Interakt, and Gupshup into operational and customer communication pipelines.",
+      "• Contributed to feature planning, database-driven workflows, and cross-functional product enhancements.",
+      "• Used Stitch to design custom UI",
+      "• NotebookLM to create intuitive documentation, workflow guides."
+
+    ],
+    "skills": [
+      "Vue.js",
+      "Flask",
+      "REST APIs",
+      "Vite SSR",
+      "PurgeCSS",
+      "Zoho CRM",
+      "Shopify"
+    ]
+  },
+  {
+    "company": "Formulo",
+    "role": "Senior Full-stack Web Developer",
+    "period": "Feb 2026 — Present",
+    "bullets": [
+      "• Led end-to-end full-stack development for core product features using Vue.js, Flask, React, and AWS services.",
+      "• Designed and integrated Shopify GraphQL APIs with internal backend systems for workflow automation and data synchronization.",
+      "• Built and optimized scalable backend workflows for doctor-user onboarding and operational automation.",
+      "• Implemented AWS Lambda functions and CloudWatch-based logging automation to push scheduled application logs to Slack channels.",
+      "• Developed internal Python packages and wrappers around Gmail API, Slack API, Interakt WhatsApp APIs, and JWT-based authentication workflows.",
+      "• Collaborated across product, backend, and frontend teams to architect and deliver production-grade features.",
+      "• Used Antigravity to customize shopify theme with custom sections and snippets."
+    ],
+    "skills": [
+      "Vue.js",
+      "React",
+      "Flask",
+      "Shopify GraphQL",
+      "AWS Lambda",
+      "CloudWatch",
+      "Slack API",
+      "Gmail API",
+      "JWT",
+      "Python",
+      "Antigravity"
+    ]
+  }
+]
+

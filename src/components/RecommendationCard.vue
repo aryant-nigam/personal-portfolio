@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex testimonial-flex position-relative px-md-5 mx-md-5 px-4 mx-3 justify-content-center align-items-center testimonial-text testimonial-card">
-        <div class="w-lg-75">
+        <div class="">
             <small class="d-block text-center"><SvgIcon name="QuoteLeft" size="20" class="me-2"/>{{ recommendation.recommendation }}</small>
             <p class="text-center mt-3 fw-bold fs-5">-{{ recommendation.name }} <a :href="recommendation.profileLink" target="_blank" rel="noopener noreferrer"><SvgIcon name="ExternalLinkIcon" size="15" stroke-width="3" class="mb-1 cursor-pointer external-link-icon"/></a></p>
             <cite class="d-block text-center text-xs">{{ recommendation.relationship }}</cite>

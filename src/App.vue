@@ -10,12 +10,12 @@
       <Socials />
       <Experience />
       <Projects />
-      <Services />
+      <Skills />
       <Recommendations />
       <Contact />
     </main>
 
-    <!-- Footer / Experience section can be added here if needed based on reference -->
+   
     <Footer />
   </div>
 </template>
@@ -28,7 +28,7 @@ import Marquee from './components/Marquee.vue';
 import Socials from './components/Socials.vue';
 import Experience from './components/Experience.vue';
 import Projects from './components/Projects.vue';
-import Services from './components/Services.vue';
+import Skills from './components/Skills.vue';
 import Recommendations from './components/Recommendations.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
@@ -43,7 +43,7 @@ export default {
     Socials,
     Experience,
     Projects,
-    Services,
+    Skills,
     Recommendations,
     Contact,
     Footer

@@ -11,9 +11,9 @@
          class="group text-end d-none d-md-block text-decoration-none">
         <div class="d-flex align-items-center justify-content-end gap-1 fw-bold text-dark group-hover-zinc transition-all">
           {{ item.label }}
-          <ArrowUpRightIcon size="12" />
+          <SvgIcon name="ArrowUpRightIcon" size="12" />
         </div>
-        <div class="text-uppercase text-zinc-400 font-medium" style="font-size: 10px;">
+        <div class="text-uppercase text-zinc-500 font-medium" style="font-size: 10px;">
           {{ item.sub }}
         </div>
       </a>
@@ -23,11 +23,11 @@
 
 <script>
 import { ArrowUpRightIcon } from 'lucide-vue-next';
-
+import SvgIcon from './SvgIcon.vue';
 export default {
   name: 'Navbar',
   components: {
-    ArrowUpRightIcon
+    SvgIcon
   },
   data() {
     return {

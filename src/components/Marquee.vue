@@ -10,64 +10,9 @@
         :key="n"
         class="d-flex align-items-center gap-5"
       >
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Full Stack Engineering</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Backend APIs</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Cloud Automation</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Vue.js & React</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>AWS Lambda</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Workflow Automation</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Shopify Integrations</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Performance Optimization</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>SSR Applications</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Platform Integrations</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>Scalable Systems</span>
-        </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <SparklesIcon size="20" class="text-indigo-400" />
-          <span>AI Tools</span>
+        <div v-for="highlight in highlights" :key="highlight" class="d-flex align-items-center gap-3">
+          <SvgIcon name="SparklesIcon" size="20" class="text-indigo-400" />
+          <span>{{ highlight }}</span>
         </div>
       </div>
     </div>
@@ -76,11 +21,29 @@
 
 <script>
 import { SparklesIcon } from 'lucide-vue-next';
-
+import SvgIcon from './SvgIcon.vue';
 export default {
   name: 'Marquee',
   components: {
-    SparklesIcon
+    SvgIcon  
+  },
+  data() {
+    return {
+      highlights: [
+        'Full Stack Engineering',
+        'Backend APIs',
+        'Cloud Automation',
+        'Vue.js & React',
+        'AWS Lambda',
+        'Workflow Automation',
+        'Shopify Integrations',
+        'Performance Optimization',
+        'SSR Applications',
+        'Platform Integrations',
+        'Scalable Systems',
+        'AI Tools'
+      ]
+    };
   }
 }
 </script>

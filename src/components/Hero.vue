@@ -11,7 +11,7 @@
         <div class="d-flex align-items-center gap-4 py-2 border-top border-bottom border-zinc-100 w-fit pe-5">
           <div class="bg-zinc-300" style="height: 1px; width: 48px;"></div>
           <span class="fs-4 fw-medium text-zinc-600 text-uppercase tracking-widest">{{ userData.role }}</span>
-          <SparklesIcon size="20" class="text-zinc-900 fill-zinc-900" />
+          <SvgIcon name="SparklesIcon" size="20" class="text-zinc-900 fill-zinc-900" />
         </div>
 
         <p class="text-zinc-500 fs-5 leading-relaxed m-0" style="max-width: 450px;">
@@ -21,7 +21,7 @@
 
       <ul class="list-unstyled d-flex flex-column gap-3">
         <li v-for="(text, i) in features" :key="i" class="d-flex align-items-center gap-3 text-sm fw-bold text-zinc-700">
-          <CheckIcon size="16" class="text-zinc-900" />
+          <SvgIcon name="CheckIcon" size="16" class="text-zinc-900" />
           {{ text }}
         </li>
       </ul>
@@ -31,12 +31,12 @@
           Let's Talk
         </button>
         <a
-          href="/files/aryant_nigam_fullstack_webdev_resume.pdf"
+          href="/files/aryant_nigam_fullstack_web_developer_resume.pdf"
           download
           class="btn bg-transparent border-0 border-bottom border-2 border-zinc-200 rounded-0 px-0 pb-1 fw-bold d-flex align-items-center gap-2"
         >
           Download Resume
-          <DownloadIcon size="16" />
+          <SvgIcon name="DownloadIcon" size="16" stroke-width="3" />
         </a>
       </div>
     </div>
@@ -46,7 +46,7 @@
       <!-- Floating Badge 1 -->
       <div class="position-absolute top-0 start-0 translate-middle-y bg-white rounded-4 p-2 p-md-3 shadow-lg z-3 d-flex align-items-center gap-3" style="margin-top: 15%; margin-left: 5%; animation: bounce 3s infinite ease-in-out;">
         <div class="bg-dark rounded-circle d-flex align-items-center justify-content-center text-white" style="width: 1.5rem; height:1.5rem;">
-          <CodeIcon size="20" />
+          <SvgIcon name="CodeIcon" size="20" />
         </div>
         <div>
           <p class="mb-0 fw-bold tracking-tight">20+</p>
@@ -62,7 +62,7 @@
       <!-- Floating Badge 2 -->
       <div class="position-absolute bottom-0 end-0 bg-dark text-white rounded-4 p-2 p-md-3 shadow-lg z-3 d-flex align-items-center gap-3" style="margin-bottom: 10%; margin-right: 5%; animation: bounce 4s infinite ease-in-out 1s;">
         <div class="bg-white rounded-circle d-flex align-items-center justify-content-center text-dark" style="width: 1.5rem; height: 1.5rem;">
-          <StarIcon size="20" />
+          <SvgIcon name="StarIcon" size="20" />
         </div>
         <div>
           <p class="mb-0 fw-bold tracking-tight">3 Years</p>
@@ -75,11 +75,13 @@
 </template>
 
 <script>
+import SvgIcon from './SvgIcon.vue';
 import { SparklesIcon, CheckIcon, DownloadIcon, CodeIcon, StarIcon } from 'lucide-vue-next';
 
 export default {
   name: 'Hero',
   components: {
+    SvgIcon,
     SparklesIcon,
     CheckIcon,
     DownloadIcon,

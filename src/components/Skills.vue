@@ -17,7 +17,7 @@
             class="scroll-circle d-flex align-items-center justify-content-center bg-black border-0 cursor-pointer transition-base hover-scale"
             :aria-label="isAllRevealed ? 'Scroll to Top' : 'Next Row'"
           >
-            <ArrowDownIcon size="16" class="text-white arrow-anim" :class="{ 'rotate-180': isAllRevealed }" />
+            <SvgIcon name="ArrowDownIcon" size="16" class="text-white arrow-anim" :class="{ 'rotate-180': isAllRevealed }" />
           </button>
         </div>
       </div>
@@ -32,7 +32,7 @@
               EXPERTISE
             </div>
             <h2 class="display-3 fw-black text-uppercase tracking-tighter lh-1 text-black">
-              TECH STACK<br />& SERVICES
+              TECH STACK<br />& SKILLS
             </h2>
           </div>
           <div style="max-width: 420px;" class="pb-2">
@@ -83,7 +83,7 @@
                     
                     <div class="d-flex align-items-center gap-3 read-more cursor-pointer">
                       <span class="text-xs fw-black text-uppercase tracking-widest">Click to explore</span>
-                      <ArrowRightIcon size="14" class="arrow-icon" />
+                      <SvgIcon name="ArrowRightIcon" size="14" class="arrow-icon" />
                     </div>
                   </div>
                 </div>
@@ -98,7 +98,7 @@
                     </li>
                   </ul>
                   <div class="d-flex align-items-center gap-2 mt-4 cursor-pointer" style="opacity: 0.6;">
-                    <ArrowRightIcon size="12" class="rotate-180" />
+                    <SvgIcon name="ArrowRightIcon" size="12" class="rotate-180" />
                     <span class="text-xs fw-bold">Back</span>
                   </div>
                 </div>
@@ -113,7 +113,7 @@
             class="mobile-nav-button d-flex align-items-center justify-content-center bg-black text-white border-0 rounded-circle"
             :aria-label="isAllRevealed ? 'Scroll to Top' : 'Next Row'"
           >
-            <ArrowDownIcon size="18" class="mobile-arrow" :class="{ 'rotate-180': isAllRevealed }" />
+            <SvgIcon name="ArrowDownIcon" size="18" class="mobile-arrow" :class="{ 'rotate-180': isAllRevealed }" />
           </button>
         </div>
       </div>
@@ -126,13 +126,10 @@
 import { nextTick } from 'vue';
 import skillsData from '../data/skills.json';
 import SvgIcon from './SvgIcon.vue';
-import { ArrowDownIcon, ArrowRightIcon } from 'lucide-vue-next';
 
 export default {
-  name: 'Services',
+  name: 'Skills',
   components: {
-    ArrowDownIcon,
-    ArrowRightIcon,
     SvgIcon
   },
   data() {

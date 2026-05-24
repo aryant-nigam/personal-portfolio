@@ -20,6 +20,7 @@
 import { computed } from 'vue';
 import {
   ArrowDownIcon,
+  ArrowLeftIcon,
   ArrowRightIcon,
   ArrowUpRightIcon,
   LayersIcon,
@@ -46,7 +47,7 @@ import {
   Code2Icon,
   ChevronLeft,
   ChevronRight,
-  Quote
+  Quote,
 } from 'lucide-vue-next';
 
 const props = defineProps({
@@ -82,7 +83,8 @@ const icons = {
   ExternalLinkIcon,
   Code2Icon,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  ArrowLeftIcon
 };
 
 const rawSvgs = {
@@ -105,6 +107,7 @@ const rawSvgs = {
     OpenAi:'<svg  xmlns="http://www.w3.org/2000/svg" width="62" height="62"  fill="currentColor" viewBox="0 0 24 24" ><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free--><path d="M20.57 10.18c.45-1.36.3-2.85-.43-4.09a5.03 5.03 0 0 0-5.42-2.42 5.05 5.05 0 0 0-7.14-.38c-.66.59-1.15 1.35-1.43 2.19A4.98 4.98 0 0 0 2.82 7.9c-1.1 1.9-.85 4.29.62 5.91-.45 1.36-.3 2.85.43 4.09a5.045 5.045 0 0 0 5.43 2.42A5.03 5.03 0 0 0 13.06 22c2.19 0 4.14-1.41 4.81-3.5a4.98 4.98 0 0 0 3.33-2.42 5.04 5.04 0 0 0-.62-5.89Zm-7.52 10.51c-.88 0-1.72-.31-2.4-.87l.12-.07 3.98-2.3c.2-.12.33-.33.33-.57v-5.61l1.68.97s.03.02.03.04v4.65c0 2.07-1.68 3.74-3.75 3.75ZM5 17.25c-.44-.76-.6-1.65-.45-2.51l.12.07 3.99 2.3c.2.12.45.12.65 0l4.87-2.81v1.94s-.01.04-.03.05l-4.03 2.33A3.756 3.756 0 0 1 5 17.25M3.95 8.58a3.7 3.7 0 0 1 1.97-1.64v4.73c0 .23.12.45.32.56l4.85 2.8-1.68.97h-.06l-4.03-2.32a3.754 3.754 0 0 1-1.37-5.12zm13.83 3.21-4.86-2.82L14.6 8h.06l4.03 2.33a3.743 3.743 0 0 1 1.37 5.12 3.8 3.8 0 0 1-1.94 1.64v-4.73a.67.67 0 0 0-.34-.56Zm1.68-2.52-.12-.07-3.98-2.32a.63.63 0 0 0-.65 0L9.84 9.69V7.75s0-.04.02-.05l4.03-2.32a3.75 3.75 0 0 1 5.12 1.38c.44.76.59 1.64.45 2.51v.02ZM8.93 12.72l-1.68-.97s-.03-.03-.03-.05V7.06c0-2.07 1.68-3.75 3.75-3.74.87 0 1.72.31 2.39.87l-.12.07-3.98 2.3c-.2.12-.33.33-.33.57v5.6Zm.91-1.97 2.17-1.25 2.17 1.25v2.5l-2.16 1.25-2.17-1.25v-2.5Z"></path></svg>',
     Announcement:'<svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64"  fill="currentColor" viewBox="0 0 24 24" ><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free--><path d="M18.5 10H22v2h-3.5zm.05-1.17 1.5-1 1.5-1L21 6l-.55-.83-1.5 1-1.5 1L18 8zm0 4.34L18 14l-.55.83 1.5 1 1.5 1L21 16l.55-.83-1.5-1zM15 8.18V4c0-.37-.2-.71-.53-.88s-.72-.15-1.03.05L7.69 7h-1.7c-2.21 0-4 1.79-4 4 0 1.52.86 2.82 2.1 3.5l1.94 6.77 1.92-.55-1.64-5.73h1.37l5.75 3.83c.17.11.36.17.55.17.16 0 .32-.04.47-.12.33-.17.53-.51.53-.88v-4.18c1.16-.41 2-1.51 2-2.82s-.84-2.4-2-2.82Zm-2 7.95-4.45-2.96A1 1 0 0 0 8 13H6c-1.1 0-2-.9-2-2s.9-2 2-2h2c.2 0 .39-.06.55-.17L13 5.87z"></path></svg>',
     QuoteLeft:'<svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64"  fill="currentColor" viewBox="0 0 24 24" ><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free--><path d="M13.01 14v4c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2h-2.85c.27-1.02 1.01-2.51 3.1-3.03l.76-.19V4h-1c-2.78 0-4.91.77-6.31 2.29-1.89 2.05-1.7 4.68-1.69 4.71v3Zm3.18-6.37c.48-.52 1.11-.91 1.87-1.19-1.56 1.42-2.04 3.4-2.04 4.56v1h5v6h-6v-7.08s-.12-1.9 1.18-3.29ZM1.01 18c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-6c0-1.1-.9-2-2-2H6.16c.27-1.02 1.01-2.51 3.1-3.03l.76-.19V4h-1c-2.78 0-4.91.77-6.31 2.29C.82 8.34 1.01 10.97 1.02 11v7Zm2-7.08s-.12-1.9 1.18-3.29c.48-.52 1.11-.91 1.87-1.19C4.5 7.86 4.02 9.84 4.02 11v1h5v6H3.01z"></path></svg>',
+    Antigravity: '<svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64"  fill="currentColor" viewBox="0 0 24 24" ><!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free--><path d="M19.94 20.59c1.09.82 2.73.27 1.23-1.23C16.67 15 17.62 3 12.03 3S7.39 15 2.89 19.36c-1.64 1.64.14 2.05 1.23 1.23 4.23-2.86 3.95-7.91 7.91-7.91s3.68 5.05 7.91 7.91"></path></svg>',
   };
 
 const IconComponent = computed(() => icons[props.name] || null);

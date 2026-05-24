@@ -133,6 +133,15 @@
     "usedIn": [
       "Explored AI-assisted workflows, intelligent automation systems, and LLM-based integrations focused on productivity enhancement and modern engineering solutions."
     ]
+  },
+  {
+    "name": "Workflow & Productivity Tools",
+    "icon": "Antigravity",
+    "color": "#60A5FA",
+    "desc": "Automation & Documentation",
+    "usedIn": [
+      "Used Antigravity for Shopify theme customization and NotebookLM for creating structured documentation, workflow guides, and productivity-focused knowledge systems."
+    ]
   }
 ]
 

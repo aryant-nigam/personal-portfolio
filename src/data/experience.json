@@ -1,4 +1,3 @@
-
 [
   {
     "company": "Infineon Technologies",
@@ -49,7 +48,6 @@
       "• Contributed to feature planning, database-driven workflows, and cross-functional product enhancements.",
       "• Used Stitch to design custom UI",
       "• NotebookLM to create intuitive documentation, workflow guides."
-
     ],
     "skills": [
       "Vue.js",
@@ -64,7 +62,7 @@
   {
     "company": "Formulo",
     "role": "Senior Full-stack Web Developer",
-    "period": "Feb 2026 — Present",
+    "period": "Feb 2026 — Jun 2026",
     "bullets": [
       "• Led end-to-end full-stack development for core product features using Vue.js, Flask, React, and AWS services.",
       "• Designed and integrated Shopify GraphQL APIs with internal backend systems for workflow automation and data synchronization.",
@@ -87,6 +85,28 @@
       "Python",
       "Antigravity"
     ]
+  },
+  {
+    "organisation": "Sparkmile pvt. ltd.",
+    "role": "Full Stack Developer",
+    "start_date": "Jun 2026",
+    "end_date": "Present",
+    "bullets": [
+      "• Building a full-stack insurance platform using Next.js, FastAPI, PostgreSQL, and SQL.",
+      "• Integrating CI InsuranceKit APIs to enable end-to-end insurance workflows.",
+      "• Designing and developing frontend and backend features from scratch, including API development and database design.",
+      "• Collaborating on application architecture, scalable backend services, and production-ready deployments."
+    ],
+    "skills": [
+      "Next.js",
+      "FastAPI",
+      "PostgreSQL",
+      "SQL",
+      "REST APIs",
+      "API Integration",
+      "Full-Stack Development",
+      "Database Design",
+      "Mentoring"
+    ]
   }
 ]
-

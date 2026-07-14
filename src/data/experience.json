@@ -87,10 +87,9 @@
     ]
   },
   {
-    "organisation": "Sparkmile pvt. ltd.",
+    "company": "Sparkmile",
     "role": "Full Stack Developer",
-    "start_date": "Jun 2026",
-    "end_date": "Present",
+    "period": "Jun 2026 — Present",
     "bullets": [
       "• Building a full-stack insurance platform using Next.js, FastAPI, PostgreSQL, and SQL.",
       "• Integrating CI InsuranceKit APIs to enable end-to-end insurance workflows.",
